@@ -1,0 +1,190 @@
+{
+  "project_title": "Office do Léo — Dark Tech Landing & Smart Booking Platform",
+  "app_type": "hybrid_fullstack",
+  "tech_stack": {
+    "frontend": "React, Tailwind CSS, Framer Motion, Lucide React, Radix UI Primitives, Sonner, Axios, Date-fns",
+    "backend": "FastAPI, MongoDB (Motor), Pydantic",
+    "theme": "Dark Modern Tech with Electric Cyan/Blue & Emerald Green Accents"
+  },
+  "emotional_archetype": "ARCHETYPE 7: ELECTRIC & NEON / HIGH-TECH PRECISION",
+  "color_palette": {
+    "background": {
+      "main": "#06080D",
+      "surface": "#0C1017",
+      "surface_elevated": "#121824",
+      "card_bg": "rgba(18, 24, 36, 0.7)"
+    },
+    "accents": {
+      "electric_blue": "#0088FF",
+      "cyan_glow": "#00E5FF",
+      "emerald_green": "#00FF87",
+      "emerald_dim": "#05B863",
+      "laser_teal": "#00F5D4"
+    },
+    "text": {
+      "primary": "#F1F5F9",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "highlight": "#00E5FF"
+    },
+    "borders": {
+      "subtle": "rgba(255, 255, 255, 0.08)",
+      "glow_blue": "rgba(0, 136, 255, 0.3)",
+      "glow_green": "rgba(0, 255, 135, 0.3)"
+    },
+    "gradients": {
+      "hero_radial": "radial-gradient(circle at 50% 20%, rgba(0, 229, 255, 0.12) 0%, rgba(0, 255, 135, 0.06) 40%, transparent 70%)",
+      "text_gradient_blue_green": "linear-gradient(135deg, #00E5FF 0%, #00FF87 100%)",
+      "card_hover_border": "linear-gradient(90deg, #0088FF, #00FF87)"
+    }
+  },
+  "typography": {
+    "font_pairing": "Syne / Cabinet Grotesk (Headings) + Plus Jakarta Sans / Inter (Body) + JetBrains Mono (Data & Pricing)",
+    "rules": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-slate-100",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white",
+      "h3_card": "text-xl sm:text-2xl font-semibold tracking-normal text-slate-100",
+      "body": "text-base text-slate-300 leading-relaxed font-normal",
+      "mono_label": "font-mono text-xs uppercase tracking-[0.2em] text-cyan-400 font-semibold",
+      "price_tag": "font-mono text-2xl font-bold text-emerald-400"
+    }
+  },
+  "brand_identity": {
+    "name": "Office do Léo",
+    "tagline": "Aulas, Consultoria e Palestras de Alta Performance",
+    "bio": "Transformando planilhas, dados e gestão em vantagem competitiva. Atendimento individualizado ou corporativo com metodologia prática e direta ao ponto.",
+    "pricing_summary": {
+      "classes": "Aulas Particulares (Excel, Word, Power BI, PowerPoint) — R$ 60 / hora",
+      "consulting": "Consultoria Empresarial & Tech (Gestão, Finanças, BI, Office, Planejamento) — R$ 100 / hora",
+      "talks": "Palestras & Workshops (Empresas & Escolas - Gestão & Tecnologia) — R$ 120 / hora"
+    },
+    "logo_spec": "Original SVG Brand Mark with interlocking 'O' and 'L' in electric cyan wireframe with glowing green node dot."
+  },
+  "image_urls": {
+    "hero_consultant": "https://images.unsplash.com/photo-1758876204300-7adfdec6579f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBleGVjdXRpdmUlMjB3b3JraW5nJTIwb24lMjBsYXB0b3AlMjBkYXJrJTIwdGVjaCUyMG9mZmljZXxlbnwwfHx8fDE3OTA4Njg1OTB8MA&ixlib=rb-4.1.0&q=85",
+    "keynote_speaker": "https://images.unsplash.com/photo-1720960292979-e83a74dc4586?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHw0fHxrZXlub3RlJTIwc3BlYWtlciUyMGxlY3R1cmUlMjBzdGFnZSUyMGNvbmZlcmVuY2UlMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3OTA4Njg1OTB8MA&ixlib=rb-4.1.0&q=85",
+    "data_analytics_dashboard": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkJTIwcG93ZXIlMjBiaSUyMGV4Y2VsJTIwY2hhcnQlMjBzY3JlZW4lMjBkYXJrfGVufDB8fHx8MTc5MDg2ODU5OXww&ixlib=rb-4.1.0&q=85",
+    "laptop_working": "https://images.unsplash.com/photo-1665360786531-28f152b73086?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBleGVjdXRpdmUlMjB3b3JraW5nJTIwb24lMjBsYXB0b3AlMjBkYXJrJTIwdGVjaCUyMG9mZmljZXxlbnwwfHx8fDE3OTA4Njg1OTB8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "key_features_and_components": {
+    "header_nav": {
+      "type": "Crystal Glass Sticky Header with Z-50",
+      "style": "backdrop-blur-xl bg-[#06080D]/80 border-b border-slate-800/60 py-4 px-6 md:px-12 flex justify-between items-center sticky top-0 z-50",
+      "elements": [
+        "Logo + Brand Title with Cyan/Green node pulse",
+        "Nav Links: Aulas, Consultoria, Palestras, Calculadora de Investimento, Depoimentos, Agendar",
+        "WhatsApp Direct Quick Link",
+        "CTA Button: 'Agendar Horário' (Triggers Booking Modal or smooth scroll to booking section)"
+      ]
+    },
+    "hero_section": {
+      "type": "Kinetic Hero with Masked Line-by-Line Reveal & Subtle Parallax",
+      "headline": "Capacitação, Consultoria e Gestão para Alavancar Seus Resultados.",
+      "subtext": "Domine as ferramentas essenciais do mercado (Excel, Power BI, Word, PowerPoint) ou acelere a eficiência do seu negócio com consultoria estratégica e palestras de impacto.",
+      "visual_treatment": "Spotlight / Clipped Frame of Executive + Interactive Live Stat Badges ('R$60/h Aulas', 'R$100/h Consultoria', 'R$120/h Palestras')",
+      "cta": [
+        "Agendar Sessão Agora (Primary - Emerald Accent)",
+        "Ver Categorias e Preços (Secondary - Outline Cyan)"
+      ]
+    },
+    "editorial_marquee": {
+      "type": "Slow Editorial Ticker",
+      "style": "py-6 border-y border-slate-800/80 bg-[#0C1017] text-slate-400 font-mono text-sm tracking-widest uppercase overflow-hidden whitespace-nowrap",
+      "content": "• EXCEL AVANÇADO • POWER BI DASHBOARDS • CONSULTORIA FINANCEIRA • PLANEJAMENTO ESTRATÉGICO • PALESTRAS DE GESTÃO E TECH • POWERPOINT EXECUTIVO • WORD PARA NEGÓCIOS • IMPACTO REAL NA SUA EMPRESA •"
+    },
+    "bento_grid_services": {
+      "layout_mode": "TETRIS / BENTO ASYMMETRIC GRID (12 columns)",
+      "cards": [
+        {
+          "col_span": "col-span-12 md:col-span-4",
+          "category": "Aulas Online",
+          "price": "R$ 60 / hora",
+          "tools": ["Excel", "Word", "Power BI", "PowerPoint"],
+          "description": "Aulas individuais e personalizadas, do básico ao avançado. Aprenda aplicando no seu trabalho real.",
+          "badge": "Mais Popular para Alunos",
+          "accent": "blue"
+        },
+        {
+          "col_span": "col-span-12 md:col-span-8",
+          "category": "Consultoria Empresarial & Tech",
+          "price": "R$ 100 / hora",
+          "tools": ["Consultoria Empresarial", "Excel & Power BI", "PowerPoint & Word", "Finanças & DRE", "Planejamento Estratégico"],
+          "description": "Diagnóstico completo, otimização de processos, criação de dashboards executivos e automação de relatórios para PMEs e profissionais.",
+          "badge": "Retorno de Investimento Rápido",
+          "accent": "emerald"
+        },
+        {
+          "col_span": "col-span-12 md:col-span-12",
+          "category": "Palestras & Workshops Corporativos",
+          "price": "R$ 120 / hora",
+          "tools": ["Empresas", "Escolas & Universidades", "Tecnologia", "Pensamento de Gestão"],
+          "description": "Apresentações dinâmicas e provocativas sobre transformação digital, análise de dados, liderança moderna e produtividade técnica.",
+          "badge": "Inspirador & Prático",
+          "accent": "teal"
+        }
+      ]
+    },
+    "interactive_price_calculator": {
+      "description": "Calculadora dinâmica de investimento estimando horas necessárias, desconto por pacote e simulação de ROI para contratação.",
+      "inputs": ["Categoria de Serviço", "Quantidade de Horas (1h a 40h)", "Formato (Online ou Presencial)"],
+      "outputs": ["Valor Total Estimado em R$", "Economia estimada em Pacote", "Opção de envio direto com dados preenchidos para a Reserva"]
+    },
+    "booking_wizard": {
+      "type": "Multi-Step Booking & Scheduling Flow",
+      "steps": [
+        "1. Seleção de Categoria (Aulas, Consultoria, Palestras)",
+        "2. Detalhes do Serviço & Módulo Escolhido",
+        "3. Seleção de Data no Calendário Interativo",
+        "4. Seleção de Horário Disponível",
+        "5. Dados de Contato (Nome, E-mail, WhatsApp, Mensagem/Necessidade)",
+        "6. Finalização com Handoff Direto para WhatsApp do Léo com Mensagem Pré-Formatada + Registro no Backend"
+      ],
+      "whatsapp_handoff_format": "Olá Léo! Gostaria de agendar [Serviço] no valor de [Preço]. Data sugerida: [Data] às [Horário]. Meu nome é [Nome] e minha necessidade é: [Mensagem]."
+    },
+    "testimonials_and_proof": {
+      "type": "Metrics Counter + Testimonials",
+      "stats": [
+        {"value": "+500", "label": "Horas de Aula Ministradas"},
+        {"value": "+40", "label": "Empresas Atendidas"},
+        {"value": "100%", "label": "Avaliação Positiva dos Alunos"},
+        {"value": "R$ 60h", "label": "A partir de R$ 60/hora"}
+      ]
+    },
+    "footer": {
+      "style": "bg-[#040508] border-t border-slate-800/80 pt-16 pb-12 px-6 md:px-12",
+      "elements": [
+        "Logo 'Office do Léo' com efeito de brilho",
+        "Links diretos de navegação e redes sociais",
+        "Contato via WhatsApp / Email",
+        "Disponibilidade de Atendimento Horários",
+        "Direitos autorais e indicação de tecnologia"
+      ]
+    }
+  },
+  "backend_endpoints": {
+    "booking": [
+      "POST /api/bookings - Criar um novo agendamento de serviço",
+      "GET /api/bookings - Listar agendamentos (para painel administrativo do Léo)",
+      "GET /api/availability?date=YYYY-MM-DD - Obter horários livres para uma data",
+      "GET /api/services - Obter lista detalhada dos serviços e valores por hora"
+    ],
+    "inquiries": [
+      "POST /api/contacts - Registrar dúvida ou solicitação de orçamento corporativo"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. Ensure the app adheres to dark modern tech aesthetics (#06080D background) with cyan and emerald accents.",
+    "2. All interactive components must include explicit 'data-testid' attributes for reliable E2E automated test runs.",
+    "3. Overwrite or update files in /app/frontend/src cleanly with proper modular components (Navbar, Hero, ServicesBento, Calculator, BookingWizard, Testimonials, Footer).",
+    "4. Ensure the Multi-step Booking Wizard handles step transitions smoothly and culminates in generating a fully formatted WhatsApp link with all key booking details, while also saving the booking to the MongoDB database via FastAPI.",
+    "5. Ensure responsive grid layouts (mobile first grid-cols-1 up to grid-cols-12 on desktop).",
+    "6. Never rely on default transparent dropdowns; always set dark opaque/glass background colors (`bg-[#0C1017]` or `bg-[#121824]`) with solid contrast text.",
+    "7. Include simulated initial availability slots in the calendar picker for smooth user testing."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Do not use dark colors as soft pastel gradients; use crisp dark obsidian surfaces with neon/cyan stroke highlights.",
+    "Every hoverable card must have micro-interactions (subtle translate-y, glowing border transition, scale effect).",
+    "Keep text hierarchy clear with generous padding and spacing (p-6, p-8, p-12).",
+    "Include tests and test attributes (`data-testid`) across buttons, inputs, modals, category cards, calendar days, time slots, and submit buttons."
+  ]
+}
